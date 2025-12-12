@@ -1,0 +1,50 @@
+/*val=95;
+if (val%4==0) 
+{
+	info "its a even" + val ;
+}
+else 
+{
+	info "its a odd" + val;
+}
+
+
+a =6;
+info a * a;*/
+
+
+/*a= 0;
+if ( a >0  ) 
+{
+	info"positive";
+}
+else if ( a == 0 ) 
+{
+	info"Zero";
+}
+else 
+{
+	info"Negative";
+}*/
+
+
+/*a=34;
+b=85;
+c= a+b ;
+if ( c==49 ) 
+{
+	info "divided by 49" ;
+}
+else if ( a%11==0 ) 
+{
+	info "divided by 11" ;
+}
+else 
+{
+	info "Not" ;
+}*/
+
+
+/*alpha = "1" ;
+res = alpha.matches("[a-z]");
+info res ; */
