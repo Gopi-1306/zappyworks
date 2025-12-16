@@ -1,0 +1,70 @@
+
+1)
+
+text="gopi";
+if (text == text.toLowerCase()) 
+{
+	info "Lower";
+}
+else if (text == text.toUpperCase()) 
+{
+	info "Upper";
+}
+else 
+{
+	info "Invalid" ;
+}
+
+==========================================================
+2)
+
+month_number=13;
+month1={1,3,6,9,11,12};
+month2={2,4,7,8,10};
+if ( month_number == month1 ) 
+{
+	info "this months has 31 days " ;
+}
+else if ( month_number == month2 ) 
+{
+	info "this months has 30 days" ;
+}
+else if  ( month_number = 2) 
+    {
+		info "it has 29 or 28 days" ;
+    }
+else 
+    {
+		info "Invalid month" ;
+    }
+
+=====================================================
+3)
+
+amount=15000;
+info amount.toWords("en-gb");
+
+
+=================================================
+5)
+
+number= {7,3,4,5,6,9,5};
+given_value = number.getOccurenceCount(5);
+info given_value;
+
+=======================================================
+6)
+
+words = 121;
+text = words.reverse();
+if ( text == words ) 
+{
+	info "Palindrome" ;
+}
+else 
+{
+	info "Not" ;
+}
+
+
+==============================================================
