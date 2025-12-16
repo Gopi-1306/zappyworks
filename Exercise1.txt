@@ -1,52 +1,105 @@
-/*val=95;
-if (val%4==0) 
+1)
+
+num1=65;
+num2=70;
+add=a+b;
+sub=a-b;
+multi=a*b;
+div=a/b;
+info add;
+info sub;
+info multi;
+info div;
+
+===============================================================
+2)
+
+area_of_peri=45;
+result=area_of_peri*4;
+info result ;
+
+
+===================================
+3)
+
+p=67;
+r=0.9993;
+area=(p*2*r);
+info area ;
+
+=========================
+4)
+
+rec=34;
+pr=33;
+area=rec*pr;
+info area;
+
+=========================
+5)
+
+val=223;
+res=54;
+info "reminder is :" val/res ;
+
+============================
+6)
+
+val= 457;
+res=458;
+info "quotient is :" val%res;
+
+==================================
+7)
+
+a=2 ;
+info a * a ;
+
+=================================
+8)
+
+val=56;
+res=45;
+if ( val > res ) 
 {
-	info "its a even" + val ;
+	info val ;
 }
 else 
 {
-	info "its a odd" + val;
+	info res ;
 }
 
+===================================
+9)
 
-a =6;
-info a * a;*/
-
-
-/*a= 0;
-if ( a >0  ) 
+val=56;
+res=60;
+var=65;
+if ( val < res && val < var) 
 {
-	info"positive";
+	info res ;
 }
-else if ( a == 0 ) 
+else if ( val > var ) 
 {
-	info"Zero";
-}
-else 
-{
-	info"Negative";
-}*/
-
-
-/*a=34;
-b=85;
-c= a+b ;
-if ( c==49 ) 
-{
-	info "divided by 49" ;
-}
-else if ( a%11==0 ) 
-{
-	info "divided by 11" ;
+	info val ;
 }
 else 
 {
-	info "Not" ;
-}*/
+	info "no number" ;
+}
+
+=========================================
+10)
+
+animal="elephant".lower();
+if ( animal.contains("a") || animal.contains("e") || animal.contains("i") || animal.contains("o") || animal.contains("u")) 
+{
+	info "Vowels" ;
+}
+else 
+{
+	info "Not vowels" ;
+}
 
 
-/*alpha = "1" ;
-res = alpha.matches("[a-z]");
-info res ; */
-
-
+========================================================================
