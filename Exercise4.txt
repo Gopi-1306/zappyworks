@@ -134,3 +134,19 @@ info dia.round(0) ;
 info cir.round(0) ;
 
 ===============================================
+
+14)
+
+squ=25;
+res=squ.sqrt();
+info res ;
+if (res * res == squ) 
+{
+	info " perfect Square" ;
+}
+else 
+{
+	info "Not Perfect Square" ;
+}
+
+================================================================
