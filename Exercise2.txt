@@ -1,0 +1,146 @@
+1)
+
+dat= '12-12-2025';
+info dat;
+===================================================
+2)
+
+/*
+dat= '12-12-2025 23:45:40';
+info dat.getDatetime(12,true) ;
+*/
+
+
+var= 8;
+	if ( var%1==var&& var/var==1) 
+{	
+	info "its a prime" ;
+}
+else 
+{
+	info "its not a prime" ;
+}
+
+============================================================
+3)
+
+a=2 ;
+info a * a ;
+
+=============================================================
+4)
+
+a =6;
+info a * a;*/
+
+
+/*a= 0;
+if ( a >0  ) 
+{
+	info"positive";
+}
+else if ( a == 0 ) 
+{
+	info"Zero";
+}
+else 
+{
+	info"Negative";
+}*/
+
+=======================================
+5)
+
+/*a=34;
+b=85;
+c= a+b ;
+if ( c==49 ) 
+{
+	info "divided by 49" ;
+}
+else if ( a%11==0 ) 
+{
+	info "divided by 11" ;
+}
+else 
+{
+	info "Not" ;
+}*/
+
+=============================================
+6)
+
+/*val=95;
+if (val%4==0) 
+{
+	info "its a even" + val ;
+}
+else 
+{
+	info "its a odd" + val;
+}
+
+===================================
+7)
+
+year=2027;
+if (( year% 400==0) || (year %4==0) && (year%100!=0) )
+{
+	info "it is the leap year";
+}
+else 
+{
+	info "not leap year" ;
+}
+
+==========================================================
+
+8)
+
+/*alpha = "1" ;
+res = alpha.matches("[a-z]");
+info res ; */
+
+
+==========================================================
+
+9)
+
+/*a="saaran rithik msni hsri gopi".lower();
+res=a.toCollection("");
+v=0;
+c=0;
+for each i in res
+{
+	if ( i=="a" || i=="e" || i=="i" || i == "o" ) 
+    {
+		v=v+1;
+// 		info " it is vowel" ;
+    }
+	else 
+    {
+		c=c+1;
+// 		info " not" ;
+    }
+
+}
+info "vowel="+v;
+info "consonent="+c ;*/
+
+==========================================================================
+
+10)
+
+a="687ajjh%/".lower();
+info a.getAlpha();
+info a.removeAllAlphaNumeric();
+d=[];
+for each i in a.toList("")
+{
+	if ( i.matches("[0-9]") )
+	{
+		d=d+i;
+	}
+    
+}
+info d ;
