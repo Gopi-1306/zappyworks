@@ -1,0 +1,321 @@
+1)
+
+age=60;
+if ( age >= 60 )
+{
+	info"senior citizen";
+}
+else if ( age >= 18 )
+{
+	info"adult";
+}
+else 
+{
+	info"minor";
+}
+
+
+================================================================================================================================================================
+2)
+
+name="";
+if ( name="" || name.isEmpty()) 
+{
+	info"name missing";
+}
+else 
+{
+	info name;
+}
+
+
+
+
+====================================================================================================================================================================
+3)
+
+
+username="gopi";
+password='1233';
+inu="ert";
+inp="4567";
+if ( username == inu && password == inp )
+{
+	info"login succesfully";
+}
+else 
+{
+	info"Acess denied";
+}
+
+
+=====================================================================================================================================
+4)
+
+mark=91;
+if ( mark >= 90 ) 
+{
+	info"A Grade";
+}
+else if (mark >=80) 
+{
+	info"B Grade";
+}
+else if ( mark >=70) 
+{
+	info"C Grade";
+} 
+else if (mark >=60) 
+{
+	info "D Grade" ;
+}
+else 
+{
+	info"Fail";
+}
+
+
+=====================================================================================================================================
+5)
+
+email="gopi13@gmail.com";
+//res=email.contains("@" &&".");
+if ( email.contains("@") && email.contains(".")) 
+{
+	info"Valid Email";
+}
+else 
+{
+	info"Invalid";
+}
+
+
+=============================================================================================================================================
+6)
+
+val="zoho";
+if ( val.length() == 10) 
+{
+	info"long text";
+}
+else 
+{
+	info"short text";
+}
+
+
+==========================================================================================================================================
+7)
+
+
+paint={"blue","red","green"};
+if (paint.contains("blue"))
+{
+	info"found";
+}
+else 
+{
+	info "Not Found" ;
+}
+
+=======================================================================================================================
+8)
+
+customer_type="premium";
+amount=900;
+premium_discount=amount/100*10;
+regular_discount=amount/100*5;
+if (amount<=500)
+{
+info regular_discount;
+}
+else if ( amount >=900 )
+
+{
+info premium_discount;
+}
+else
+{
+info "not discount";
+}
+
+
+=============================================================================================================================9)
+9)
+
+grams= 5;
+if (grams < 1) 
+{
+	info"10 USD";
+}
+else if ( grams >=2 && grams <= 5 ) 
+{
+	info"20 USD";
+}
+else if (grams>=6 && grams <= 20 ) 
+{
+	info"30 USD";
+}
+else 
+{
+	info "40 USD" ;
+}
+
+
+=========================================================================================================================
+
+10)
+
+
+password="Gopi1234";
+len = password.length();
+if (len>=6)
+{
+	if (password.contains("0"))
+    {
+		info "Strong Password";
+    }
+	else 
+    {
+		info "Must Contain Number";
+    }
+}
+ else 
+ {
+	 info "Too Short" ;
+ }
+
+
+
+
+==========================================================================================================================
+11)
+
+
+age=8;
+salary=45000;
+if ( age>=21 && salary>=25000) 
+{
+	info"eligible";
+}
+else if ( salary < 25000 ) 
+{
+	info "low income" ;
+}
+else 
+{
+	info"underage";
+}
+
+=======================================================================================
+12)
+
+
+user=-10;
+if ( user >=1 && user <=5000    ) 
+{
+	info"Active";
+}
+else if (user >=5000 && user <=7000 ) 
+{
+	info"Very Active";
+}
+else if ( user >= 10000 ) 
+{
+	info"excelent";
+}
+else 
+{
+	info "no step";
+}
+
+===========================================================
+13)
+
+
+physics=10;
+chemistry=20;
+biology=20;
+maths=20;
+cs=11;
+res = (physics+chemistry+biology+maths+cs)/500*100;
+if ( res >= 90 ) 
+{
+	info "A Grade" ;
+}
+else if ( res >= 80 ) 
+{
+	info"B Grade";
+}
+else if ( res >= 70 ) 
+{
+	info "C Grade" ;
+}
+else if ( res >= 60 ) 
+{
+	info "D Grade" ;
+}
+else if ( res >= 40 ) 
+{
+	info "E Grade" ;
+}
+else 
+{
+	info "Fail" ;
+}
+
+=======================================================================
+14)
+
+basic_salary=100000;
+if ( basic_salary <=10000) 
+{
+	hra=basic_salary *20/100;
+	da=basic_salary *80/100;
+}
+else if ( basic_salary <= 20000 ) 
+{
+	hra=basic_salary *25/100;
+	da=basic_salary *90/100;
+}
+else if ( basic_salary > 20000) 
+{
+	hra=basic_salary *30/100;
+	da=basic_salary *95/100;
+}
+gross_salary=basic_salary+hra+da;
+info gross_salary ;
+
+
+=================================================================================
+
+15)
+
+
+units = 100;
+if(units <=50)
+{
+	bill = units * 0.50;
+}
+else if (units>50 &&  units<=150)
+{
+	bill=(50*0.50)+(units-50)*0.75;
+}
+else if (units>100 && units <= 250)
+{
+	bill = (50*0.50)+(100*0.75)+(units-150)*1.20;
+}
+else if (units>250)
+{
+     bill = (50*0.50)+(100*0.75)+(100*1.20)+(units-250)*1.50;
+}
+else 
+{
+	normal = (50*0.50)+(100*0.75)+(100*1.20)+(units-250)*1.50; 
+	result = normal * 20/100;
+	 final = normal+ result;
+}
+info bill;
+
+
+
