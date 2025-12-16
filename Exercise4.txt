@@ -174,3 +174,18 @@ num=-3.45;
 info num.abs();
 
 ==============================
+
+17)
+
+inp=4;
+var=inp.isEven() ;
+var1= inp.isOdd();
+if (inp.isEven()) 
+{
+	inp1=inp+1;
+	info inp1  ;
+}
+else
+{
+	info inp * inp ;
+}
