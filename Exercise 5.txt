@@ -1,0 +1,3 @@
+list={45,56,78,98,12,32};
+res= list.indexOf(56);
+info res ;
