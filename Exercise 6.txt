@@ -35,6 +35,14 @@ num=value1.remove(2);
 info value1 ;
 
 ================================================
+5)
+list1={12,56,89,75,4,1};
+for each index num in list1
+{
+	info num + " is " + list1.get(num) ;
+}
+
+======================================================
 6)
 
 Marks= {90,65,23,90,34};
@@ -52,3 +60,52 @@ for each var in Marks
 
 ===========================================
 7)
+
+flowers ={"rose", "lotus", "lily", "Jasmine", "lily","sun flower"};
+uni=[];
+dup=[];
+for each i in flowers
+{
+	if ( i not in uni ) 
+    {
+		uni.add(i);
+    }
+	else 
+    {
+		dup.add(i);
+    }
+}
+info uni ;
+info dup ;
+
+=====================================================================
+8)
+
+Numbers={123.5, 789.90, 876.65, 8976.76};
+for each i in Numbers
+{
+	var=i.abs();
+	info var ;
+}
+
+========================================================
+9)
+
+Numbers_list= {87,90,67,23,56,90,65,90};
+info Numbers_list.sort() ;
+
+======================================
+10)
+
+List= {12,11,22,77,3433,90};
+for each num in List
+{
+	if ( num.isOdd()) 
+    {
+		info num + " is Odd";
+    }
+	else 
+    {
+		info num + " is Even";
+    }
+}
