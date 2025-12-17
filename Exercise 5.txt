@@ -14,3 +14,25 @@ info list2;
 list2.insertAll(list1);
 info list2;
 
+===================================================
+3)
+
+list={3,4,6,8,34};
+product=2;
+for each i in list
+{
+	product=product * i ;
+	info product ;
+}
+
+====================================================
+
+5)
+
+number={3,6,9,10};
+for each list1 in number
+{
+	info list1.toWords("en-gb") ;
+}
+
+======================================================
