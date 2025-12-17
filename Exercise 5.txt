@@ -47,3 +47,44 @@ for each list1 in number
 }
 
 ======================================================
+6)
+
+val={1,2,3,4,5,6,7,8};
+even=0;
+odd=0;
+for each i in val
+{
+	if (i.isOdd()) 
+{
+		odd=odd+i;		
+}
+else 
+{
+	even=even+i;
+}
+}
+info even ;
+info odd ;
+
+====================================================================
+7)
+
+val={1,2,3,4,5,6,7,8};
+even=0;
+odd=0;
+for each i in val
+{
+	if (i.isOdd()) 
+{
+		odd=odd+1;		
+}
+else 
+{
+	even=even+1;
+}
+}
+info even ;
+info odd ;
+
+========================================================
+8)
