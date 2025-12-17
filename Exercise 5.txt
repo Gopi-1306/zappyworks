@@ -1,3 +1,16 @@
+1)
+
 list={45,56,78,98,12,32};
 res= list.indexOf(56);
 info res ;
+
+=======================================
+2)
+
+list1={1,5,6,78,9,5};
+list2-Collection();
+list2.add(10);
+info list2;
+list2.insertAll(list1);
+info list2;
+
