@@ -88,3 +88,23 @@ info odd ;
 
 ========================================================
 8)
+
+Sentences= {"Positive thinking always leads to success", "I like Nature", "Be positive"};
+Sentences=Sentences.lower();
+word={"always","like","be"};
+for each i in Sentences
+{
+	for each j in word
+    {
+		if ( i.contains(j) ) 
+        {
+			info j ;
+        }
+		
+    }
+}
+
+=============================================================================================================
+9)
+
+
