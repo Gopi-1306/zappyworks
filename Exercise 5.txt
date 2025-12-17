@@ -107,4 +107,18 @@ for each i in Sentences
 =============================================================================================================
 9)
 
+Fruits= {"Strawberry", "Cherry", "Apple", "Banana",};
+for each index n in Fruits
+{
+	info n+"-"+Fruits.get(n) ;
+}
 
+===============================================================
+10)
+
+numbers= {44,89,99,100,12};
+for each  n in numbers
+{
+	s=n.sqrt();
+	info n + " is the square root of : " + s;
+}
