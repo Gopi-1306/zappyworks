@@ -1,0 +1,54 @@
+1)
+
+res = Collection();
+res.insertAll({"blue","red","green"});
+info res ;
+
+======================================================
+2)
+
+list1={23,56,89,87,54,2,1};
+for each var in list1
+{
+	info var ;
+}
+
+==============================================
+3)
+
+element1={12,45,47,78,96,32};
+search=455;
+if ( element1.contains(search) ) 
+{
+	info "found " + search;
+}
+else 
+{
+	info " not found";
+}
+
+=================================================
+4)
+
+value1={15,59,75,35,46,28};
+num=value1.remove(2);
+info value1 ;
+
+================================================
+6)
+
+Marks= {90,65,23,90,34};
+for each var in Marks
+{
+	if ( var%5==0) 
+    {
+		info var + "Divisible " ;
+    }
+	else 
+    {
+		info var + "Not " ;
+    }
+}
+
+===========================================
+7)
