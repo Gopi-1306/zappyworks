@@ -4,3 +4,65 @@ list1={22,44,3,45,78,999,99};
 info list1.largest() ;
 
 ========================================================
+2)
+
+marks = {300,455,124,926,780};
+ret = marks.nthlargest(4);
+info ret;
+
+=============================================
+3)
+
+num_1 =[1, 2, 3, 4, 5, 1, 2, 3];
+uni=[];
+dup=[];
+for each i in num_1
+{
+	if ( i not in uni ) 
+    {
+		uni.add(i);
+    }
+	else 
+    {
+		dup.add(i);
+    }
+}
+info uni ;
+info dup ;
+
+===================================================================
+5)
+
+Input1 = {1, 2, 3, 4, 5};
+res= Input1.reverse();
+info res ;
+
+=====================================================
+6)
+
+str = {"fny46$@sdv","ib456&^dfg","6165dvd$%&%"};
+list1=str.toList("");
+alpha_list=Collection();
+number_list=Collection();
+character1_list=Collection();
+for each n in list1
+{
+	if ( n.matches("[a-z]") )
+    {
+		alpha_list.insert(n);
+    }
+	else if (  n.matches("[0-9]") ) 
+    {
+		number_list.insert(n);
+    }
+	else 
+    {
+		character1_list.insert(n);
+    }
+
+}
+info "alpha-list = " + alpha_list;
+info "number-list = " + number_list ;
+info "character1-list = " + character1_list ;
+
+===============================================================================
