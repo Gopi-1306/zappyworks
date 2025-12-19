@@ -86,3 +86,38 @@ info " Number_list =" + num ;
 info " Special_list =" + spe ;
 
 ===============================================================================
+7)
+
+c_det={"c1" :{" saran" ,"saran123@gmail.com"},"c2":{"ram","ram@gmail.com"},"c3":{"gopi"},"c4":{"syed"}};
+c_order={"c1":{"biriyani":4,"rice":5},"c2":{"biriyani":1,"rice":2,"bottle":2},"c3":{"rice":1}};
+price={"biriyani":150,"rice":100,"bottle":10};
+items={"biriyani","rice","bottle","dosa"};
+for each customer in c_det.keys()
+{
+	
+	totals=0;
+	info "*********************" ;
+	info "customer is :: "+c_det.get(customer).get(0);
+	
+	if ( c_order.containKey(customer) ) 
+    {
+	order=c_order.get(customer);
+	for each customer1 in order.keys()
+    {
+		val=order.get(customer1);
+		pr=price.get(customer1);
+		info " | "+customer1 +" | "+ "Qty" + " | "+order.get(customer1)+" | "+ "Each - "+price.get(customer1)+" | "+"Total - "+ val * pr;
+// 		val=order.get(customer1);
+// 		pr=price.get(customer1);
+		mintot = val * pr ;
+// 		info mintot ;
+		totals=totals+mintot;
+    }
+	info " | "+"Overall Total is -"+totals ;
+	}
+	else 
+    {
+		info "not order" + c_det.get(customer).get(0);
+    }
+	
+}
