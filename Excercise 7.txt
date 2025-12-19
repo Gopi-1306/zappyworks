@@ -31,6 +31,18 @@ info uni ;
 info dup ;
 
 ===================================================================
+4)
+
+for each val1 in value
+{
+	current=value.indexOf(val1);
+	random=randomnumber(current + 1 , value.size()-1);
+	value.update(current , value.get(random));
+	value.update(random,val1);
+}
+info value ;
+
+===============================================================
 5)
 
 Input1 = {1, 2, 3, 4, 5};
@@ -40,29 +52,37 @@ info res ;
 =====================================================
 6)
 
-str = {"fny46$@sdv","ib456&^dfg","6165dvd$%&%"};
-list1=str.toList("");
-alpha_list=Collection();
-number_list=Collection();
-character1_list=Collection();
-for each n in list1
+character = {"fny46$@sdv","ib456&^dfg","6165dvd$%&%"};
+alpha={};
+num={};
+spe={};
+for each char in character
 {
-	if ( n.matches("[a-z]") )
+	l={};
+	m={};
+	n={};
+	for each i in char.toCollection("")
     {
-		alpha_list.insert(n);
-    }
-	else if (  n.matches("[0-9]") ) 
+   
+		if (i.matches("[a-zA-Z]") )
     {
-		number_list.insert(n);
+		l.add(i);
     }
-	else 
+	else if (i.matches("[0-9]") )
     {
-		character1_list.insert(n);
+		m.add(i);
     }
-
+	else  
+    {
+		n.add(i);
+    }
+	}
+	alpha.add(l);
+	num.add(m);
+	spe.add(n);
 }
-info "alpha-list = " + alpha_list;
-info "number-list = " + number_list ;
-info "character1-list = " + character1_list ;
+info " Alpha_list =" + alpha ;
+info " Number_list =" + num ;
+info " Special_list =" + spe ;
 
 ===============================================================================
